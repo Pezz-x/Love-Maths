@@ -1,5 +1,5 @@
-
-
+//
+//
 
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
@@ -16,8 +16,15 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 })
 
+/**
+ * The main game loop, called when the script is first loadded
+ * and after the users answer has been processed
+ */
 function runGame() {
 
+    // Creates 2 random bunbers between 1 and 25
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
 
 function checkAnswer() {
