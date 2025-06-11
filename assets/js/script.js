@@ -99,8 +99,8 @@ function incrementScore() {
  */
 function incrementWrongAnswer() {
 
-    let oldScore = parseInt(document.getElementById("incorrect").innerText);
-    document.getElementById("incorrect").innerText = ++oldScore;
+    let oldScore = parseInt(document.getElementById("Incorrect").innerText);
+    document.getElementById("Incorrect").innerText = ++oldScore;
     
 }
 
